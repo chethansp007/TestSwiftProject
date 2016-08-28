@@ -96,7 +96,7 @@
 				TargetAttributes = {
 					D63235A71D71FE3D0018B3CC = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 5364AC7HJT;
+						DevelopmentTeam = A6LZH3M2NF;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -259,13 +259,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5364AC7HJT;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = A6LZH3M2NF;
 				INFOPLIST_FILE = TestSwiftProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.manulife.move.MOVE;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyApps.DemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1bd4f4d6-c1d6-4d1c-bac3-194f6365032d";
-				PROVISIONING_PROFILE_SPECIFIER = "Manulife MOVE Development Profile";
+				PROVISIONING_PROFILE = "8152e9a1-60eb-420a-9303-b74098ec8b1b";
+				PROVISIONING_PROFILE_SPECIFIER = "MyApps - Adhoc Profile";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -275,13 +276,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = 5364AC7HJT;
+				DEVELOPMENT_TEAM = A6LZH3M2NF;
 				INFOPLIST_FILE = TestSwiftProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.manulife.move.MOVE;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyApps.DemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3ae0f42e-60c5-499f-b039-308c33f6d348";
-				PROVISIONING_PROFILE_SPECIFIER = "Manulife MOVE In House Profile";
+				PROVISIONING_PROFILE = "8152e9a1-60eb-420a-9303-b74098ec8b1b";
+				PROVISIONING_PROFILE_SPECIFIER = "MyApps - Adhoc Profile";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -305,6 +306,7 @@
 				D63235BC1D71FE3D0018B3CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
